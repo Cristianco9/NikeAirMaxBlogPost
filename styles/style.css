@@ -10,7 +10,7 @@ body {
 
 .title {
     color: #EE1313;
-    font-size: 55px;
+    font-size: 580%;
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -18,7 +18,7 @@ body {
 }
 
 .story {
-    font-size: 40px;
+    font-size: 300%;
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
     padding-left: 111px;
@@ -27,9 +27,9 @@ body {
 }
 
 .text {
-    color: #757575;
+    color: #555555;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 155%;
     font-family: 'Open Sans', sans-serif;
     padding-left: 111px;
     padding-right: 111px;
@@ -38,15 +38,19 @@ body {
 }
 
 .modelsList {
-    font-size: 40px;
+    font-size: 300%;
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
+}
+
+.inputList {
+    color: #EE1313; 
 }
 
 .newsletter {
     color: #ffffff;
     font-weight: 800;
-    font-size: 35px;
+    font-size: 222%;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     padding-top: 20px
@@ -56,35 +60,35 @@ body {
     color: #ffffff;
     background-color: #000000;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 98%;
     font-family: 'Open Sans', sans-serif;
     border: none;
     outline: none;
 }
 
 .name:hover {
-    font-size: 18px;
+    font-size: 100%;
     width: 400px;
     height: 20px;
     transition: 0.8s;
 }
 
 .size:hover {
-    font-size: 18px;
+    font-size: 100%;
     width: 430px;
     height: 20px;
     transition: 0.8s;
 }
 
 .email:hover {
-    font-size: 18px;
+    font-size: 100%;
     width: 410px;
     height: 20px;
     transition: 0.8s;
 }
 
 .country:hover {
-    font-size: 18px;
+    font-size: 100%;
     width: 385px;
     height: 20px;
     transition: 0.8s;
@@ -103,7 +107,7 @@ body {
     color: black;
     font-family: 'Open Sans', sans-serif;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 100%;
     font-weight: 700;
     border: none;
 }
