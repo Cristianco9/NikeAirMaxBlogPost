@@ -4,19 +4,25 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="This's my top nike sneakers"> 
-        <title>Nike sneakers</title>
-        <!-- Fonts -->
-        <meta name="robots" content="index,follow">
         <link rel="stylesheet" href="./styles/style.css">
+        <!-- Description of the page -->
+        <meta name="description" content="This's BlogPost of the Nike Air Max sneakers"> 
+        <title>Nike sneakers</title>
+        <!--  SEO robots on -->
+        <meta name="robots" content="index,follow">
+        <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
     </head>
     <body>
+        <!-- Main Container -->
         <main class="background">
+            <!-- Tittle -->
             <h1 class="title">Air Max</h1>
+            <!-- Subtittle -->
             <h2 class="story">The story of Nike Air Max</h2>
+            <!-- Body text -->
             <p class="text">
                 The Nike Air Max is a emblematic line of shoes produced by Nike Inc. The first model Nike Air Max 1 was released in 
                 1987. This iconic shoes are identified by their midsoles incorporing flexible urethane pouches filled with pressurized 
@@ -34,7 +40,9 @@
             </p>
             <br>
             <br>
+             <!-- I use the <center></center> tag to center all elements within the tag with HTML semantic -->
             <center>
+                <!-- Embedding YouTube video -->
                 <iframe width="907" height="510" src="https://www.youtube.com/embed/LBukoM3CLic" frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowfullscreen>
@@ -42,9 +50,12 @@
                 <br>
                 <br>
                 <br>
+                <!-- Subtitle -->
                 <h2 class="modelsList">All Nike Air Max models</h2>
+                <!--  List of the sneakers models -->
                 <input list="models" class="inputList">
                 <datalist id="models">
+                    <!--  List's elements -->
                     <option value="Air Max 1 (1987)"></option>
                     <option value="Air Walker Max (1988)"></option>
                     <option value="Air Max Light (1989)"></option>
@@ -80,10 +91,14 @@
                 <br>
                 <br>
                 <br>
+                <!-- Newsletter -->
                 <div class="container" id="container">
+                    <!-- Newsletter form -->
                     <from action="">
+                        <!-- Newsletter tittle -->
                         <h2 class="newsletter">Suscribe to the newsletter now</h2>
                         <br>
+                        <!-- Form data input -->
                         <label for="Name">
                             <span class="form">Whats's your name?</span>
                             <input type="text" name="username" class="name" autocomplete="name" required placeholder="Enter a name">
@@ -105,6 +120,7 @@
                         </label>
                         <br>
                         <br>
+                        <!-- Submit button -->
                         <input type="submit" value="SUSCRIBE" id="buttonSend">
                     </from>
                 </div>
