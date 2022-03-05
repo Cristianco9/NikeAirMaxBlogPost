@@ -1,19 +1,23 @@
+/* Universal properties */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* Setting rem measuare */
 html {
     font-size; 62.5%;
 }
 
+/* Background image */
 body {
     background-image: url(../imagens/backgroundImages/nikeAirLogo.png);
     width: 100vw;
     height: 100vh;
 }
 
+/* Tittle */
 .title {
     color: #EE1313;
     font-size: 5rem;
@@ -23,6 +27,7 @@ body {
     padding-top: 5%;
 }
 
+/* Subtitle */
 .story {
     font-size: 3rem;
     font-weight: 800;
@@ -32,6 +37,7 @@ body {
     padding-top: 2%;
 }
 
+/* Body text */
 .text {
     color: #555555;
     font-weight: 600;
@@ -43,16 +49,19 @@ body {
     text-justify: inter-word;
 }
 
+/* Models list tittle */
 .modelsList {
     font-size: 3rem;
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Item selected color */
 .inputList {
     color: #EE1313; 
 }
 
+/* Newsletter tittle */
 .newsletter {
     color: #ffffff;
     font-weight: 800;
@@ -62,6 +71,7 @@ body {
     padding-top: 3%;
 }
 
+/* Question form styles */
 .form {
     color: #ffffff;
     background-color: #000000;
@@ -72,6 +82,7 @@ body {
     outline: none;
 }
 
+/* Form input container start */
 .name:hover {
     font-size: 0.9rem;
     width: 60%;
@@ -103,7 +114,9 @@ body {
     max-height: 9%;
     transition: 0.8s;
 }
+/* Form input container end */
 
+/* Newsletter background image */
 .container {
     background-size: cover;
     background-image: url(../imagens/backgroundImages/newsletterImage.jpg);
@@ -113,6 +126,7 @@ body {
     margin: 0 auto;
 }
 
+/* Submit button */
 #buttonSend {
     background-color: #ffffff;
     color: black;
